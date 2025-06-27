@@ -1,0 +1,35 @@
+.hero{
+    background-image: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    
+}
+
+.bai-jamjuree-regular {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.bai-jamjuree-semibold {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.twoline{
+    margin: 0 auto;
+    width: 50%;
+}
+.transform-image{
+    transform: translate(0px, 0);
+}
+@media (max-width:576px){
+ .twoline{
+        width: 80%;
+    }
+}
+
+@media (min-width:576px)  {
+   
+    .transform-image{
+    transform: translate(-150px, 0);
+}
+}
