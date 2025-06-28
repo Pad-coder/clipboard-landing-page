@@ -1,35 +1,62 @@
-.hero{
+.hero {
     background-image: url(./images/bg-header-desktop.png);
     background-repeat: no-repeat;
-    
+
+}
+
+.font-size-18 {
+    font-size: 18px;
 }
 
 .bai-jamjuree-regular {
-  font-family: "Bai Jamjuree", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
+
 .bai-jamjuree-semibold {
-  font-family: "Bai Jamjuree", sans-serif;
-  font-weight: 600;
-  font-style: normal;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
-.twoline{
+
+.twoline {
     margin: 0 auto;
-    width: 50%;
+    width: 55%;
 }
-.transform-image{
+
+.transform-image {
     transform: translate(0px, 0);
 }
-@media (max-width:576px){
- .twoline{
+
+.footer-logo-small {
+    width: 100px;
+    height: 100px;
+}
+
+.footer-social-icons {
+    width: 30px;
+    height: 30px;
+
+}
+
+
+
+@media (max-width:576px) {
+    .twoline {
         width: 80%;
     }
 }
 
-@media (min-width:576px)  {
-   
-    .transform-image{
-    transform: translate(-150px, 0);
-}
+
+@media (min-width:576px) {
+
+    .transform-image {
+        transform: translate(-150px, 0);
+    }
+
+    .footer-logo-small {
+        width: 50px;
+        height: 50px;
+    }
 }
